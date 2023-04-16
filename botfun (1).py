@@ -36,12 +36,12 @@ def get_response(message):
     # personalizar la respuesta del bot en función de las necesidades de soporte técnico
     if 'steam virtual' in message:
         print('Bot: puedes observar este pdf para guiarte, aqui encontrarasuna guia para entrar a steam virtual ')
-        response = "https://drive.google.com/file/d/1wwqTmI5ITrRgFbRl_OUh96IxuFFV7vfg/view?usp=share_link"      
+        response = "https://drive.google..............."      
     elif 'plataforma' in message:
         response = '¿Podrías proporcionar más detalles sobre el problema que estás experimentando?'
     if 'soporte tecnico' in message:
         print('puedes guiarte con el soporte tecnico aqui:')
-        response = 'Correo electrónico: soporte@aprendersteam.co -- WhatsApp:Hora: 8:00am a 8:00pm Teléfono: (+507) 6452-8854 https://wa.me/50764528854  Zoom Hora: 4:00pm a 8:00pm ZOOM ID:  839 7978 8995 : https://bit.ly/SoporteSTEAM'
+        response = 'mmmmmmm'
 
     return str(response)
 
